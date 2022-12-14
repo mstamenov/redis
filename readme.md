@@ -1,5 +1,5 @@
 ### Description
-This image is based on the official Redis image and uses redis.conf file. The default redis.conf file is modified to set the password. The password is set using the environment variable `redis_password`. The default password is `SetSomeP@sswordHere`.
+This image is based on the official Redis image and uses redis.conf file. The default redis.conf file is modified to set the password using the environment variable `redis_password`. The default password is `SetSomeP@sswordHere`.
 
 To build the image, run the following command:
 ```bash
